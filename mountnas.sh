@@ -3,11 +3,11 @@
 # Script with logging, unmount option, and SELinux support
 
 # Configuration
-SHARE_PATH="//192.168.1.119/share"
+SHARE_PATH="//ip_address_to_server/share_folder_name"
 MOUNT_POINT="/mnt/windows_share"
 BACKUP_MOUNT_POINT="/mnt/backup_share"
-USERNAME="sov"
-PASSWORD="x"
+USERNAME="windows_user_name"
+PASSWORD="windows_password"
 CREDENTIALS_FILE="/root/.smbcredentials"
 BACKUP_CREDS="/tmp/.smbcredentials"
 MOUNT_SERVICE="mount-windows-share.service"
